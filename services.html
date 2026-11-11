@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Adan Ahmed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Visitor count and date/time -->
+<div class="topbar">
+    <div class="container-custom topbar-inner">
+        <div class="topbar-info">
+            <span><i class="fa-solid fa-eye"></i>Your visits: <b id="visitors">0</b></span>
+            <span><i class="fa-regular fa-calendar"></i><b id="currentDate">Loading...</b></span>
+            <span><i class="fa-regular fa-clock"></i><b id="clock">Loading...</b></span>
+        </div>
+        <span>Accounts & Taxation Services</span>
+    </div>
+</div>
+
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container-custom nav-inner">
+        <a href="index.html" class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-scale-balanced"></i></span>
+            <span>ADAN<span>.</span></span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="services.html" class="active" aria-current="page">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <a href="contact.html" class="nav-contact">
+            <i class="fa-regular fa-envelope"></i> Contact Us
+        </a>
+    </div>
+</nav>
+
+
+
+  <main class="services-page">
+
+    <section class="svc-hero">
+      <span class="contact-label">SERVICES</span>
+      <h1>Finance, marketing &amp; design,<br><span>under one roof.</span></h1>
+      <p>Practical help with accounts, taxation compliance, Meta advertising and graphic design, so you can focus on running your business.</p>
+      <div class="svc-jump">
+        <a href="#accounts">Accounts</a>
+        <a href="#tax">Taxation</a>
+        <a href="#ads">Meta Ads</a>
+        <a href="#design">Design</a>
+      </div>
+    </section>
+
+    <section class="svc-list-section">
+    <article class="svc-block" id="accounts">
+      <div class="svc-media">
+        <img src="images/accounts.png" alt="Accounts illustration" width="740" height="480" loading="lazy">
+        <span class="svc-badge"><i class="fas fa-calculator"></i></span>
+      </div>
+      <div class="svc-body">
+        <span class="svc-number">01 / 04</span>
+        <h2>ACCOUNTS</h2>
+        <h3>Accurate Records, Better Decisions.</h3>
+        <p>Clear, organised accounts give you a true picture of where your business stands. I help keep your records in order so decisions are based on real numbers.</p>
+        <ul class="svc-list"><li><i class="fas fa-circle-check"></i> Bookkeeping & accounting</li><li><i class="fas fa-circle-check"></i> Maintaining financial records</li><li><i class="fas fa-circle-check"></i> Accounts management</li></ul>
+        <a href="contact.html" class="svc-cta">Discuss this service <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </article>
+
+    <article class="svc-block svc-reverse" id="tax">
+      <div class="svc-media">
+        <img src="images/taxation.png" alt="Taxation compliance illustration" width="740" height="480" loading="lazy">
+        <span class="svc-badge"><i class="fas fa-file-invoice-dollar"></i></span>
+      </div>
+      <div class="svc-body">
+        <span class="svc-number">02 / 04</span>
+        <h2>TAXATION COMPLIANCE</h2>
+        <h3>Stay Compliant, Stay Ahead.</h3>
+        <p>Registration and filing support across federal and provincial authorities, so deadlines and requirements are handled properly.</p>
+        <ul class="svc-list"><li><i class="fas fa-circle-check"></i> Income tax registration & returns</li><li><i class="fas fa-circle-check"></i> Sales tax registration & returns</li><li><i class="fas fa-circle-check"></i> SRB, BRA & PRA registration & returns</li><li><i class="fas fa-circle-check"></i> SECP company registration</li><li><i class="fas fa-circle-check"></i> PSEB registration</li></ul>
+        <a href="contact.html" class="svc-cta">Discuss this service <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </article>
+
+    <article class="svc-block" id="ads">
+      <div class="svc-media">
+        <img src="images/meta-ads.png" alt="Meta Ads illustration" width="740" height="480" loading="lazy">
+        <span class="svc-badge"><i class="fas fa-bullhorn"></i></span>
+      </div>
+      <div class="svc-body">
+        <span class="svc-number">03 / 04</span>
+        <h2>META ADS</h2>
+        <h3>More Reach, More Customers.</h3>
+        <p>Facebook and Instagram advertising built around your audience and your goal, with tracking so you can see what is working.</p>
+        <ul class="svc-list"><li><i class="fas fa-circle-check"></i> Facebook & Instagram ads</li><li><i class="fas fa-circle-check"></i> Campaign setup & management</li><li><i class="fas fa-circle-check"></i> Audience targeting</li><li><i class="fas fa-circle-check"></i> Performance tracking</li></ul>
+        <a href="contact.html" class="svc-cta">Discuss this service <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </article>
+
+    <article class="svc-block svc-reverse" id="design">
+      <div class="svc-media">
+        <img src="images/graphic-design.png" alt="Graphic design illustration" width="740" height="480" loading="lazy">
+        <span class="svc-badge"><i class="fas fa-palette"></i></span>
+      </div>
+      <div class="svc-body">
+        <span class="svc-number">04 / 04</span>
+        <h2>GRAPHICS DESIGNING</h2>
+        <h3>Creative Designs, Stronger Brands.</h3>
+        <p>Visuals that communicate your message clearly and keep your brand looking consistent across platforms.</p>
+        <ul class="svc-list"><li><i class="fas fa-circle-check"></i> Social media posts</li><li><i class="fas fa-circle-check"></i> Promotional banners</li><li><i class="fas fa-circle-check"></i> Branding & visual identity</li><li><i class="fas fa-circle-check"></i> Digital designs</li></ul>
+        <a href="contact.html" class="svc-cta">Discuss this service <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </article>
+
+    </section>
+
+    <section class="process-section">
+      <div class="process-heading">
+        <span class="contact-label">HOW IT WORKS</span>
+        <h2>A simple process, <span>start to finish.</span></h2>
+      </div>
+      <div class="process-grid"><div class="process-step"><span>01</span><h3>Get in touch</h3><p>Message me on WhatsApp or email with a short note about what you need.</p></div><div class="process-step"><span>02</span><h3>Share requirements</h3><p>We go through the details and documents so the scope is clear before work begins.</p></div><div class="process-step"><span>03</span><h3>Work gets done</h3><p>I handle the registration, filing, campaign or design and keep you updated.</p></div><div class="process-step"><span>04</span><h3>Review & support</h3><p>You review the result, and I stay available for follow-up questions.</p></div></div>
+    </section>
+
+    <section class="faq-section">
+      <div class="process-heading">
+        <span class="contact-label">QUESTIONS</span>
+        <h2>Frequently <span>asked.</span></h2>
+      </div>
+      <div class="faq-list"><details class="faq-item"><summary>Which tax services do you handle?<i class="fas fa-plus"></i></summary><p>Income tax and sales tax registration and returns, SRB, BRA and PRA registration and returns, SECP company registration and PSEB registration.</p></details><details class="faq-item"><summary>Can I hire you for just one service?<i class="fas fa-plus"></i></summary><p>Yes. You can ask for a single service, such as a tax return or a set of social media designs, or combine several.</p></details><details class="faq-item"><summary>How do I start?<i class="fas fa-plus"></i></summary><p>Use the contact page or message me directly on WhatsApp with a short description of what you need.</p></details><details class="faq-item"><summary>Do you work with clients outside my city?<i class="fas fa-plus"></i></summary><p>Most of this work can be done online, so location is usually not a problem. Mention yours when you get in touch.</p></details></div>
+    </section>
+
+    <section class="contact-bottom">
+      <span>READY WHEN YOU ARE</span>
+      <h2>Tell me what you need, <span>I'll take it from there.</span></h2>
+      <a href="https://wa.me/923113033068" target="_blank" rel="noopener">Message Me on WhatsApp <i class="fab fa-whatsapp"></i></a>
+    </section>
+
+  </main>
+
+<!-- footer -->
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <div class="footer-top">
+      <div class="footer-about">
+        <a href="index.html" class="footer-logo">ADAN<span>.</span></a>
+        <p>
+          Bridging Finance, Technology & Creativity.
+          Helping businesses with accounting, taxation,
+          digital marketing and creative solutions.
+        </p>
+
+        <div class="footer-socials">
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://wa.me/923113033068" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-links">
+        <h3>My Services</h3>
+        <a href="services.html">Accounts</a>
+        <a href="services.html">Taxation Compliance</a>
+        <a href="services.html">Meta Ads</a>
+        <a href="services.html">Graphics Designing</a>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Get In Touch</h3>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:adanahmed504@gmail.com">adanahmed504@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Pakistan</p>
+        <a href="contact.html" class="footer-contact-btn">
+          Let's Talk <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 <span>Adan Ahmed</span>. All Rights Reserved.</p>
+      <p>Designed with <i class="fas fa-heart"></i> by Adan Ahmed</p>
+    </div>
+
+  </div>
+</footer>
+<!-- end -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js" defer></script>
+</body>
+</html>
